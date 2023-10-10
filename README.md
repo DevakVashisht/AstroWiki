@@ -11,7 +11,7 @@ Navigate to the project directory: cd astrology-website
 Install dependencies: npm install
 Start the server: npm start
 <h2>Usage</h2>
-Visit our website.=>
+Visit our website => https://devakvashisht.github.io/AstroWiki/
 Sign up or log in to access personalized features.
 Explore your horoscope, birth chart, and compatibility with others.
 Read our astrology blog for insightful articles.
