@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaisei+Decol&family=Lora:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Kaisei+Decol&family=Lora:wght@500&family=Vollkorn+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora';
+}
+
+h1, h3{
+    font-family: 'Kaisei Decol';
+}
+
+p {
+    font-family: 'Vollkorn SC';
+}
+
+body::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.nav-item{
+    padding: 1rem 1.7rem 0 1.7rem;
+    font-size: 1.2rem;
+}
+
+.navbar-brand{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    font-family: 'Josefin Sans';
+    font-weight: 900;
+    margin-right: 36.5rem;
+}
+
+.nav-item:hover{
+
+}
+
+.btn-outline-success{
+    color: black;
+    border-radius: 90px;
+    border: 1px solid black;
+}
+
+.btn-outline-success:hover{
+    background-color: black !important;
+    color: white;
+    border: 1.5px solid black !important;
+}
+
+.btn-outline-success::after{
+    border: 1px solid black !important;
+    background-color: black !important;
+}
+
+.btn-outline-success:active{
+    border: 1px solid black !important;
+    background-color: black !important;
+}
+
+.navbar-collapse ul a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s linear;
+}
+
+.navbar-collapse ul a:hover:after{
+    transform-origin: botttom left;
+    transform: scaleX(1);
+}
+
+.search-nav{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.title {
+    display: inline-block;
+}
+
+.ani-text-1{
+    text-align: center;
+    margin:40rem 0rem 0rem 64rem;
+    font-size: 6rem;
+}
+
+.ani-text-2 {
+    margin: 2rem 0 14rem 94rem;
+    font-size: 4rem;
+}
+
+.texxt{
+    margin-top: -4rem;
+}
+
+.background-clip {
+    position: absolute;
+    right: 54rem;
+    bottom: 20rem;
+    border-radius: 20px;
+}
+
+#refer{
+    text-align: center;
+}
+
+#refer h3{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+#refer p{
+    font-size: 1.5rem;
+}
+i {
+    font-size: 5rem;
+}
+
+.skill {
+    margin: 11rem 0rem;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 11rem;
+  }
+
+  .row a:hover{
+    text-decoration: none;
+  }
+  .row h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 3.75em;
+    margin: 0.6em 0;
+    /* font-weight: 600; */
+    font-family: 'Vollkorn SC';
+    color: #070024;
+  }
+  .column {
+    padding: 5em;
+  }
+  .card {
+    padding: 3.1em 1.25em;
+    text-align: center;
+    background: linear-gradient(0deg, #393f4b 10px, transparent 10px);
+    background-repeat: no-repeat;
+    background-position: 0 0.62em;
+    box-shadow: 0 0 2.5em rgba(0, 0, 0, 0.15);
+    border-radius: 0.5em;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .card .icon {
+    font-size: 2.5em;
+    height: 2em;
+    width: 2em;
+    margin: auto;
+    background-color: #070024;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #ffffff;
+  }
+  .icon:before {
+    position: absolute;
+    content: "";
+    height: 2.2em;
+    width: 2.2em;
+    border: 0.12em solid  #070024;
+    border-radius: 50%;
+    transition: 0.5s;
+  }
+  .card h3 {
+    font-size: 1.3em;
+    margin: 1em 0 1.4em 0;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    color: #070024;
+  }
+  .card p {
+    line-height: 2em;
+    color: #625a71;
+  }
+  .card:hover {
+    background-position: 0;
+  }
+  .card:hover .icon:before {
+    height: 3em;
+    width: 3em;
+  }
+  @media screen and (min-width: 768px) {
+    section {
+      padding: 1em 7em;
+    }
+  }
+  @media screen and (min-width: 992px) {
+    section {
+      padding: 1em;
+    }
+    .card {
+      padding: 5em 2em;
+    }
+    .column {
+      flex: 0 0 33.33%;
+      max-width: 33.33%;
+      padding: 0 1em;
+    }
+  }
